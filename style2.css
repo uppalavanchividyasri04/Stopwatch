@@ -1,0 +1,55 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Stopwatch container */
+.stopwatch {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* Display styling */
+#display {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+/* Control buttons */
+.controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#startBtn { background-color: #4CAF50; }
+#pauseBtn { background-color: #ff9800; }
+#resetBtn { background-color: #f44336; }
+#lapBtn { background-color: #2196F3; }
+
+/* Lap times display */
+#laps {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+}
